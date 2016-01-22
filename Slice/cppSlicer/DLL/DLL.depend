@@ -19,3 +19,23 @@
 1430287826 c:\users\guss2\documents\codeblockstest\dll\slice.h
 	"main.h"
 
+1430334459 source:c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\main.cpp
+	"main.h"
+
+1430335576 c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\main.h
+	<windows.h>
+
+1430334459 source:c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\poly.cpp
+	"poly.h"
+
+1430334459 c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\poly.h
+	"main.h"
+
+1430334871 source:c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\slice.cpp
+	"slice.h"
+	"main.h"
+	<cmath>
+
+1430335462 c:\users\guss2\desktop\gvi\git\lvslicer\stl2\cppslicer\dll\slice.h
+	"main.h"
+

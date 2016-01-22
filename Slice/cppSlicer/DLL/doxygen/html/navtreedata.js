@@ -6,18 +6,14 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ]
     ] ],
     [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
-      ] ]
+      [ "File List", "files.html", "files" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+".html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

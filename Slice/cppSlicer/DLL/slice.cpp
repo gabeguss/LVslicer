@@ -2,7 +2,7 @@
 #include "main.h"
 #include <cmath>
 
-int DLL_EXPORT slice(const triangle * tri, const int length, edge * el, int * edgeLen, const int slices, const float thickness, const float zStart) {
+int DLL_EXPORT PBFAM::slice(const triangle * tri, const int length, edge * el, int * edgeLen, const int slices, const float thickness, const float zStart) {
 
 if(!(thickness > 0) || (slices == 0)) return -1;
 for(int i = 0; i < slices; i++){

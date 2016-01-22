@@ -1,5 +1,4 @@
 EXPORTS
     DllMain@12 @1
-    SomeFunction @2
-    slice @3
-    testTransfer @4
+    slice @2
+    testTransfer @3

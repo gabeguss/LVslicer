@@ -69,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -110,69 +109,54 @@ $(document).ready(function(){initNavTree('slice_8h_source.html','');});
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SLICE_H_INCLUDED</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;main.h&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef POINT_INCLUDED</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define POINT_INCLUDED</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">float</span> x;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">float</span> y;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">float</span> z;} <a class="code" href="structpoint3.html">point3</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structpoint2.html">   17</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">float</span> x;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">float</span> y;} <a class="code" href="structpoint2.html">point2</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif // POINT_INCLUDED</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef TRIANGLE_INCLUDED</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define TRIANGLE_INCLUDED</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="structpoint3.html">point3</a> norm;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="structpoint3.html">point3</a> v1;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<a class="code" href="structpoint3.html">point3</a> v2;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<a class="code" href="structpoint3.html">point3</a> v3;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} <a class="code" href="structtriangle.html">triangle</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif // TRIANGLE_INCLUDED</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifndef EDGE_INCLUDED</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#define EDGE_INCLUDED</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structedge.html">   34</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="structpoint2.html">point2</a> v1;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="structpoint2.html">point2</a> v2;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> index;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;} <a class="code" href="structedge.html">edge</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif // EDGE_INCLUDED</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_p_b_f_a_m.html">PBFAM</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="struct_p_b_f_a_m_1_1point3.html">   19</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">float</span> x;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">float</span> y;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">float</span> z;} <a class="code" href="struct_p_b_f_a_m_1_1point3.html">point3</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="struct_p_b_f_a_m_1_1point2.html">   24</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">float</span> x;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">float</span> y;} <a class="code" href="struct_p_b_f_a_m_1_1point2.html">point2</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="struct_p_b_f_a_m_1_1triangle.html">   28</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="struct_p_b_f_a_m_1_1point3.html">point3</a> norm;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="struct_p_b_f_a_m_1_1point3.html">point3</a> v1;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<a class="code" href="struct_p_b_f_a_m_1_1point3.html">point3</a> v2;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<a class="code" href="struct_p_b_f_a_m_1_1point3.html">point3</a> v3;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <a class="code" href="struct_p_b_f_a_m_1_1triangle.html">triangle</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="struct_p_b_f_a_m_1_1edge.html">   35</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="struct_p_b_f_a_m_1_1point2.html">point2</a> v1;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="struct_p_b_f_a_m_1_1point2.html">point2</a> v2;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> index;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;} <a class="code" href="struct_p_b_f_a_m_1_1edge.html">edge</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#ifndef EDGE_LIST</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#define EDGE_LIST</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structedge_list.html">   43</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> * lengths;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="structedge.html">edge</a> * Elist;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <a class="code" href="structedge_list.html">edgeList</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // EDGE_LIST</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">int</span> DLL_EXPORT <a class="code" href="slice_8h.html#a1c60ad08f9dbf66082bf20a42de2337a">slice</a>(<span class="keyword">const</span> <a class="code" href="structtriangle.html">triangle</a> * tri, <span class="keyword">const</span> <span class="keywordtype">int</span> length, <a class="code" href="structedge.html">edge</a> * el, <span class="keywordtype">int</span> * edgeLen, <span class="keyword">const</span> <span class="keywordtype">int</span> slices, <span class="keyword">const</span> <span class="keywordtype">float</span> thickness, <span class="keyword">const</span> <span class="keywordtype">float</span> zStart);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif // SLICE_H_INCLUDED</span></div>
-<div class="ttc" id="structtriangle_html"><div class="ttname"><a href="structtriangle.html">triangle</a></div><div class="ttdef"><b>Definition:</b> poly.h:12</div></div>
-<div class="ttc" id="structedge_html"><div class="ttname"><a href="structedge.html">edge</a></div><div class="ttdef"><b>Definition:</b> slice.h:34</div></div>
-<div class="ttc" id="structpoint3_html"><div class="ttname"><a href="structpoint3.html">point3</a></div><div class="ttdef"><b>Definition:</b> poly.h:7</div></div>
-<div class="ttc" id="structedge_list_html"><div class="ttname"><a href="structedge_list.html">edgeList</a></div><div class="ttdef"><b>Definition:</b> slice.h:43</div></div>
-<div class="ttc" id="slice_8h_html_a1c60ad08f9dbf66082bf20a42de2337a"><div class="ttname"><a href="slice_8h.html#a1c60ad08f9dbf66082bf20a42de2337a">slice</a></div><div class="ttdeci">int DLL_EXPORT slice(const triangle *tri, const int length, edge *el, int *edgeLen, const int slices, const float thickness, const float zStart)</div><div class="ttdoc">brute-force slicer and head to tail sort for triangular meshes </div><div class="ttdef"><b>Definition:</b> slice.cpp:5</div></div>
-<div class="ttc" id="structpoint2_html"><div class="ttname"><a href="structpoint2.html">point2</a></div><div class="ttdef"><b>Definition:</b> slice.h:17</div></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="struct_p_b_f_a_m_1_1edge_list.html">   41</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> * lengths;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="struct_p_b_f_a_m_1_1edge.html">edge</a> * Elist;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;} <a class="code" href="struct_p_b_f_a_m_1_1edge_list.html">edgeList</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keywordtype">int</span> DLL_EXPORT slice(<span class="keyword">const</span> <a class="code" href="struct_p_b_f_a_m_1_1triangle.html">triangle</a> * tri, <span class="keyword">const</span> <span class="keywordtype">int</span> length, <a class="code" href="struct_p_b_f_a_m_1_1edge.html">edge</a> * el, <span class="keywordtype">int</span> * edgeLen, <span class="keyword">const</span> <span class="keywordtype">int</span> slices, <span class="keyword">const</span> <span class="keywordtype">float</span> thickness, <span class="keyword">const</span> <span class="keywordtype">float</span> zStart);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif // SLICE_H_INCLUDED</span></div>
+<div class="ttc" id="struct_p_b_f_a_m_1_1edge_list_html"><div class="ttname"><a href="struct_p_b_f_a_m_1_1edge_list.html">PBFAM::edgeList</a></div><div class="ttdef"><b>Definition:</b> slice.h:41</div></div>
+<div class="ttc" id="namespace_p_b_f_a_m_html"><div class="ttname"><a href="namespace_p_b_f_a_m.html">PBFAM</a></div><div class="ttdef"><b>Definition:</b> slice.h:10</div></div>
+<div class="ttc" id="struct_p_b_f_a_m_1_1edge_html"><div class="ttname"><a href="struct_p_b_f_a_m_1_1edge.html">PBFAM::edge</a></div><div class="ttdef"><b>Definition:</b> slice.h:35</div></div>
+<div class="ttc" id="struct_p_b_f_a_m_1_1point3_html"><div class="ttname"><a href="struct_p_b_f_a_m_1_1point3.html">PBFAM::point3</a></div><div class="ttdoc">3 coordinate point </div><div class="ttdef"><b>Definition:</b> slice.h:19</div></div>
+<div class="ttc" id="struct_p_b_f_a_m_1_1triangle_html"><div class="ttname"><a href="struct_p_b_f_a_m_1_1triangle.html">PBFAM::triangle</a></div><div class="ttdef"><b>Definition:</b> slice.h:28</div></div>
+<div class="ttc" id="struct_p_b_f_a_m_1_1point2_html"><div class="ttname"><a href="struct_p_b_f_a_m_1_1point2.html">PBFAM::point2</a></div><div class="ttdef"><b>Definition:</b> slice.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="slice_8h.html">slice.h</a></li>
-    <li class="footer">Generated on Tue Apr 28 2015 22:48:15 for DLL by
+    <li class="footer">Generated on Wed Apr 29 2015 12:26:39 for DLL by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

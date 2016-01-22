@@ -69,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,7 +103,6 @@ $(document).ready(function(){initNavTree('slice_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">slice.h File Reference</div>  </div>
@@ -119,104 +117,33 @@ $(document).ready(function(){initNavTree('slice_8h.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpoint3.html">point3</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p_b_f_a_m_1_1point3.html">PBFAM::point3</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">3 coordinate point  <a href="struct_p_b_f_a_m_1_1point3.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpoint2.html">point2</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p_b_f_a_m_1_1point2.html">PBFAM::point2</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtriangle.html">triangle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p_b_f_a_m_1_1triangle.html">PBFAM::triangle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structedge.html">edge</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p_b_f_a_m_1_1edge.html">PBFAM::edge</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structedge_list.html">edgeList</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p_b_f_a_m_1_1edge_list.html">PBFAM::edgeList</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1c60ad08f9dbf66082bf20a42de2337a"><td class="memItemLeft" align="right" valign="top">int DLL_EXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="slice_8h.html#a1c60ad08f9dbf66082bf20a42de2337a">slice</a> (const <a class="el" href="structtriangle.html">triangle</a> *tri, const int length, <a class="el" href="structedge.html">edge</a> *el, int *edgeLen, const int slices, const float thickness, const float zStart)</td></tr>
-<tr class="memdesc:a1c60ad08f9dbf66082bf20a42de2337a"><td class="mdescLeft">&#160;</td><td class="mdescRight">brute-force slicer and head to tail sort for triangular meshes  <a href="#a1c60ad08f9dbf66082bf20a42de2337a">More...</a><br /></td></tr>
-<tr class="separator:a1c60ad08f9dbf66082bf20a42de2337a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595ca2232e685fc6c565138c91586288"><td class="memItemLeft" align="right" valign="top">int DLL_EXPORT&#160;</td><td class="memItemRight" valign="bottom"><b>PBFAM::slice</b> (const <a class="el" href="structtriangle.html">triangle</a> *tri, const int length, edge *el, int *edgeLen, const int slices, const float thickness, const float zStart)</td></tr>
+<tr class="memdesc:a595ca2232e685fc6c565138c91586288"><td class="mdescLeft">&#160;</td><td class="mdescRight">brute-force slicer and head to tail sort for triangular meshes  <a href="#a595ca2232e685fc6c565138c91586288">More...</a><br /></td></tr>
+<tr class="separator:a595ca2232e685fc6c565138c91586288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>slicer </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a1c60ad08f9dbf66082bf20a42de2337a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLL_EXPORT slice </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structtriangle.html">triangle</a> *&#160;</td>
-          <td class="paramname"><em>tri</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structedge.html">edge</a> *&#160;</td>
-          <td class="paramname"><em>el</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>edgeLen</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>slices</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const float&#160;</td>
-          <td class="paramname"><em>thickness</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const float&#160;</td>
-          <td class="paramname"><em>zStart</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>brute-force slicer and head to tail sort for triangular meshes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tri</td><td>is the triangular mesh (read-only) </td></tr>
-    <tr><td class="paramname">length</td><td>is the number of triangles (read-only) </td></tr>
-    <tr><td class="paramname">el</td><td>is the array where the intersected and sorted edges are returned </td></tr>
-    <tr><td class="paramname">edgeLen</td><td>is the number of intersected edges for each slice </td></tr>
-    <tr><td class="paramname">slices</td><td>is the number of slices to intersect the triangles with (read-only) </td></tr>
-    <tr><td class="paramname">thickness</td><td>is the thickness of the slices (read-only) </td></tr>
-    <tr><td class="paramname">zStart</td><td>is the z height of the first slice, can be negative (read-only) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="slice_8h.html">slice.h</a></li>
-    <li class="footer">Generated on Tue Apr 28 2015 22:48:15 for DLL by
+    <li class="footer">Generated on Wed Apr 29 2015 12:26:39 for DLL by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
